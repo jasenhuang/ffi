@@ -15,4 +15,9 @@ FOUNDATION_EXPORT const unsigned char libffiVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <libffi/PublicHeader.h>
 
+#import <libffi/ffi.h>
+#import <libffi/fficonfig.h>
+#import <libffi/ffi_common.h>
+#import <libffi/ffi_cfi.h>
+#import <libffi/ffitarget.h>
 
